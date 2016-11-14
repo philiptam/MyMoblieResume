@@ -1,0 +1,42 @@
+.tqy-nav .navbar-brand{
+    font-family:"微软雅黑";
+}
+.my-info .tqy-message-title{
+    background-color: #adffef;
+    margin-top: 0px;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 40px;
+    padding-left: 20px;
+    font-family:"微软雅黑";
+}
+.my-info p{
+    padding-left: 20px;
+}
+/*我的技能*/
+.my-skill .tqy-skill-title{
+    background-color: #adffef;
+    margin-top: 0px;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 40px;
+    padding-left: 20px;
+    font-family:"微软雅黑";
+}
+/*工作经验*/
+.my-exp .tqy-exp-title{
+    background-color: #adffef;
+    margin-top: 0px;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 40px;
+    padding-left: 20px;
+    font-family:"微软雅黑";
+}
+.my-exp p{
+    padding-left: 15px;
+    padding-right: 15px;
+}

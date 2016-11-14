@@ -1,0 +1,53 @@
+/*注释：这种注释会解析*/
+//这种注释不会解析
+
+/*1。定义变量  @变量名:值;*/
+@color:#e92322;
+@size:1px;
+
+/*使用变量*/
+a{
+  color: @color;
+}
+
+/*定义函数--定义样式*/
+/*.addBorderR{
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+}*/
+/*可以传递参数，也可以给参数默认址*/
+.addBorderR(@r:@size){
+  border-radius: @r;
+  -webkit-border-radius: @r;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  border: 1px solid @color;
+  .addBorderR(2px);
+}
+
+/*嵌套*/
+header{
+  width:100%;
+  height: 400px;
+  background-color: @color;
+  div{
+    .addBorderR(2px);
+    a{
+      text-decoration: none;
+    }
+    &:hover{
+      text-decoration: underline;
+    }
+    >span{
+      width:100px;
+    }
+  }
+}
+
+/*运算符*/
+p{
+  .addBorderR(@size+2);
+}

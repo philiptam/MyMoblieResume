@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            height: 2000px;
+            /*background-image: url("../images/bg.jpg");
+            background-position: -10px 0;
+            background-repeat: no-repeat;
+            !*background-attachment: fixed;*!*/
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            margin: 10px auto;
+            background-color: #ccc;
+            border: 1px solid red;
+            /*移动端*/
+            /*1.默认情况下，背景图片就是从容器的左上角进行旋转*/
+            background-image: url("。。/images/1.jpg");
+            /*background-repeat: no-repeat;*/
+            /*设置背景的填充方式*/
+            /*1.设置百分比或者大小，将背景图片缩放到指定的大小，有可能造成图片的变形*/
+            /*background-size: 200px 200px;*/
+            /*1.素材大于容器：进行等比缩放，当某个方向的内容包含在指定容器内的时候，会结束缩放，造成某些内容无法显示
+            2.当素材小于容器的时候，有可能造成容器的某些范围的空白*/
+            /*background-size: cover;*/
+            /*background-position: center;*/
+            /*将图片完全的包含在容器内，意味着，容器有一些范围可能会空白*/
+            /*background-size: contain;*/
+            /*对于背景图片而言，坐标默认是左上角*/
+            padding: 20px;
+            background-origin: content-box;
+            background-clip: content-box;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
