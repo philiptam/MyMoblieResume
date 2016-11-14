@@ -40,3 +40,29 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+/*联系方式*/
+.contextme .tqy-context-title{
+    background-color: #adffef;
+    margin-top: 0px;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 40px;
+    padding-left: 20px;
+    font-family:"微软雅黑";
+}
+.contextme p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.jump .tqy-jump-title{
+    background-color: #cccccc;
+    margin-top: 0px;
+    height: 25px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 25px;
+    padding-left: 20px;
+    font-family:"微软雅黑";
+    color: #000000;
+}
